@@ -16,13 +16,11 @@ This is a starter full-stack task manager application fulfilling the evaluation 
 ## Quick setup (local)
 ### Prerequisites
 - Node.js (>=18 recommended)
-- MongoDB running locally or a MongoDB URI (Atlas)
+- MongoDB URI (Atlas)
 
 ### Backend
 ```bash
-cd backend
-cp .env
-# edit .env to set MONGO_URI and JWT_SECRET
+cd D:/annu/task-manager-fullstack-with-installer/backend
 npm install
 npm run dev
 ```
@@ -30,8 +28,10 @@ Backend will run on `http://localhost:4000` by default.
 
 ### Frontend
 ```bash
-cd frontend
-cp .env
+cd D:/annu/task-manager-fullstack-with-installer/frontend
+npm install
+npm install react-icons
+npm install --legacy-peer-deps
 npm install
 npm run dev
 ```
@@ -46,12 +46,6 @@ Frontend Vite dev server will start (default `http://localhost:5173`). The front
   - `GET /api/tasks/:id` -> get single
   - `PUT /api/tasks/:id` -> update
   - `DELETE /api/tasks/:id` -> delete
-
-## Notes & Next steps (suggested)
-- Add better UI/UX, client-side validation, and loading states
-- Add editing tasks UI
-- Add tests, TypeScript conversion (bonus), and deploy backend to Render/Heroku and frontend to Vercel/Netlify
-- Improve security: rate-limiting, helmet, refresh tokens
 
 ## License
 MIT
