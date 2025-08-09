@@ -21,7 +21,7 @@ This is a starter full-stack task manager application fulfilling the evaluation 
 ### Backend
 ```bash
 cd backend
-cp .env.example .env
+cp .env
 # edit .env to set MONGO_URI and JWT_SECRET
 npm install
 npm run dev
@@ -31,7 +31,7 @@ Backend will run on `http://localhost:4000` by default.
 ### Frontend
 ```bash
 cd frontend
-cp .env.example .env
+cp .env
 npm install
 npm run dev
 ```
