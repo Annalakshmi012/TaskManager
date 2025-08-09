@@ -37,7 +37,7 @@ npm run dev
 ```
 Frontend Vite dev server will start (default `http://localhost:5173`). The frontend expects the backend base URL in `.env` as `VITE_API_URL`.
 
-## API Endpoints (sample)
+## API Endpoints 
 - `POST /api/auth/register` { name, email, password } -> { token }
 - `POST /api/auth/login` { email, password } -> { token }
 - Protected routes (Authorization: Bearer <token>):
